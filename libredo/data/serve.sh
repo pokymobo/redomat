@@ -49,6 +49,7 @@ cd /REDO/build/tmp/deploy/images
 
 find /REDO/build/tmp/deploy/images -type l -name "core-image*.iso" -exec ln -s {} "$RESULTDIR/" ';'
 find /REDO/build/tmp/deploy/images -type l -name "core-image*.ova" -exec ln -s {} "$RESULTDIR/" ';'
+find /REDO/build/tmp/deploy/images -type l -name "core-image*.*sdimg" -exec ln -s {} "$RESULTDIR/" ';'
 )
 
 (
